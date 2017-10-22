@@ -1,9 +1,16 @@
-import ReactDOM from 'react-dom';
+// Absolute imports
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import MainApp from './components/MainApp.jsx';
+// NPM imports
+import ReactDOM from 'react-dom';
+import React from 'react'; // eslint-disable-line no-unused-vars
+
+// Component imports
+import MainApp from './MainApp.jsx';
 
 // App Styles
-require('./styles/app.scss');
+// require('./styles/app.scss');
 
 ReactDOM.render(
   <MainApp />,
